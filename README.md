@@ -1,3 +1,5 @@
+![GitHub License](https://img.shields.io/github/license/Evaldo-ed/POO-ADS-2026.2)
+
 # Atividades práticas da disciplina de Programação Orientada a Objetos
 
 Repositório com todos os exercícios e laboratórios desenvolvidos na disciplina de Programação Orientada a Objetos do curso superior de tecnologia em Análise e Desenvolvimento de Sistemas do IFSC, campus São José
