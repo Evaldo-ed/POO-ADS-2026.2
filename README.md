@@ -14,4 +14,6 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 02](Aulas/aula-02_2026-07-29) - Introdução à linguagem Java (Parte 02).
 
-- [Aula 03](Aulas/aula-03_2026-08-04) - Introdução à linguagem Java (Parte 02).
+- [Aula 03](Aulas/aula-03_2026-08-04) - Introdução à linguagem Java (Parte 03).
+
+- [Aula 04](Aulas/aula-04_2026-08-05) - Introdução à linguagem Java (Parte 04).
