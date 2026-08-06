@@ -23,6 +23,7 @@ git config user.email "seu.email@exemplo.com"
 ### Criando Personal Access Token (PAT) no GitHub
 
 Um Personal Access Token (PAT) é um token de autenticação utilizado como credencial para acessar recursos do GitHub, substituindo o uso da senha em ações realizadas pela linha de comando com Git, como `git clone`, `git push` e `git pull`.
+
 Desde 13 de agosto de 2021, o GitHub não permite a autenticação por senha para operações Git. Desta forma, a criação de um PAT é necessária para validar a identidade do usuário e autorizar o acesso aos repositórios conforme as permissões configuradas.
 A seguir, são descritos os passos para a geração de um Personal Access Token (PAT) no GitHub:
 
@@ -50,6 +51,9 @@ Após esta configuração, o Git armazenará as credenciais fornecidas durante a
 ## Qual a diferença entre git merge e git rebase?
 
 Os comandos `git merge` e `git rebase` possuem o objetivo de integrar alterações de branches diferentes, porém realizam esta função de maneiras distintas.
+
 O `git merge` combina o histórico das branches selecionadas e cria um novo commit de merge, preservando a sequência original dos commits de cada branch, o que torna o histórico mais representativo ao processo de desenvolvimento. Portanto, é considerado a opção mais adequada quando é importante manter o registro completo das etapas de um projeto.
+
 Em contraste, o `git rebase` reogarniza os commits de uma determinada branch, ordenando-os como se tivessem sido criados a partir da versão mais recente de outra branch, o que resulta em um histórico linear, sem commits adicionais de merge. Devido a estas características, é comumente utilizado para atualizar branches de desenvolvimento antes da integração ao branch principal, facilitando a leitura do histórico.
+
 Deste modo, o `git merge` é mais apropriado para integrar branches públicas ou compartilhadas, uma vez que não modifica o histórico existente. Por sua vez, o `git rebase` é recomendado para organizar o histórico local e tornar a sequência de commits mais simples, mas deve ser aplicado com extremo cuidado, pois altera a identidade dos commits existentes e pode causar conflitos caso a branch esteja sendo utizlizada por múltiplos colaboradores. Em suma, `git merge` deve ser usado quando a preservação do histórico for prioridade, enquanto `git rebase` é mais adequado quando a clareza e linearidade do histórico forem mais importantes.
