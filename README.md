@@ -8,6 +8,8 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Laboratório 01](Laboratorios/lab-01_2026-07-22) - Sistema de controle de versão.
 
+- [Laboratório 02](Laboratorios/lab-02_2026-08-11) - Sistema de controle de versão.
+
 ## Aulas
 
 - [Aula 01](Aulas/aula-01_2026-07-28) - Introdução à linguagem Java (Parte 01).
