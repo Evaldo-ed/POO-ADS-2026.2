@@ -21,3 +21,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 04](Aulas/aula-04_2026-08-05) - Introdução à linguagem Java (Parte 04).
 
 - [Aula 05](Aulas/aula-05_2026-08-11) - Introdução ao gradle.
+
+- [Aula 06](Aulas/aula-06_2026-08-18) - Introdução ao paradigma orientado a objetos.
