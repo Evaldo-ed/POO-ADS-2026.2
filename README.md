@@ -22,4 +22,6 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 05](Aulas/aula-05_2026-08-11) - Introdução ao gradle.
 
-- [Aula 06](Aulas/aula-06_2026-08-18) - Introdução ao paradigma orientado a objetos.
+- [Aula 06](Aulas/aula-06_2026-08-18) - Introdução ao paradigma orientado a objetos (Parte 01).
+
+- [Aula 07](Aulas/aula-07_2026-08-19) - Introdução ao paradigma orientado a objetos (Parte 02).
