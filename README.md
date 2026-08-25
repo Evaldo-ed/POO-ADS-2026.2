@@ -25,3 +25,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 06](Aulas/aula-06_2026-08-18) - Introdução ao paradigma orientado a objetos (Parte 01).
 
 - [Aula 07](Aulas/aula-07_2026-08-19) - Introdução ao paradigma orientado a objetos (Parte 02).
+
+- [Aula 08](Aulas/aula-08_2026-08-25/) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes.
