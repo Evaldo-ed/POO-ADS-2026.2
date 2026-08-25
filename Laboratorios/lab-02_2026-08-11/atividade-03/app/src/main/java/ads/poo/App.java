@@ -10,20 +10,8 @@ public class App {
                 IO.println("*".repeat(i));
             }
         } else if (args[0].equals("losango")) {
-            boolean ehPar = false;
-            int linhasTotais = dimensaoX;
-            while (linhasTotais != 0) {
-                linhasTotais/=2;
-                if (linhasTotais == 1) {
-                    break;
-                }
-            }
-            if (linhasTotais == 1) {
-                ehPar = true;
-            }
-
             IO.println("java AsciiArt losângo " + dimensaoX + "\n");
-            int espacoVazio = dimensaoX/2 - ((ehPar) ? 1 : 0);
+            int espacoVazio = dimensaoX/2 - ((dimensaoX % 2 == 0) ? 1 : 0);
             int asteriscos = 1;
             int linha = 1;
             for (int i = 0; i < dimensaoX; i++) {
