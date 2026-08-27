@@ -8,7 +8,7 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Laboratório 01](Laboratorios/lab-01_2026-07-22) - Sistema de controle de versão.
 
-- [Laboratório 02](Laboratorios/lab-02_2026-08-11) - Sistema de controle de versão.
+- [Laboratório 02](Laboratorios/lab-02_2026-08-11) - Revisão da linguagem Java.
 
 ## Aulas
 
@@ -26,4 +26,6 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 07](Aulas/aula-07_2026-08-19) - Introdução ao paradigma orientado a objetos (Parte 02).
 
-- [Aula 08](Aulas/aula-08_2026-08-25/) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes.
+- [Aula 08](Aulas/aula-08_2026-08-25/) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 01).
+
+- [Aula 09](Aulas/aula-09_2026-08-26/) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 02).
