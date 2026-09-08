@@ -10,6 +10,8 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Laboratório 02](Laboratorios/lab-02_2026-08-11) - Revisão da linguagem Java.
 
+- [Laboratório 03](Laboratorios/lab-03_2026-09-01) - Prática com construtor, modificadores, sobrecarga, membros estáticos e finais.
+
 ## Aulas
 
 - [Aula 01](Aulas/aula-01_2026-07-28) - Introdução à linguagem Java (Parte 01).

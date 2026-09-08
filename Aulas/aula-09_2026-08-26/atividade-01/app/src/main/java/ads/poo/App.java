@@ -22,8 +22,8 @@ public class App {
             opcao = Integer.parseInt(IO.readln("Entre com a opção: "));
             switch(opcao) {
                 case 1 -> cadastrar();
-                case 2 -> ListarTodos();
-                case 3 -> ImprimirDados();
+                case 2 -> listarTodos();
+                case 3 -> imprimirDados();
                 default -> IO.println((opcao != 4) ? "Valor inválido." : "Encerrando o programa.");
             }
         }
@@ -38,7 +38,7 @@ public class App {
         IO.println();
     }
 
-    public void ListarTodos() {
+    public void listarTodos() {
         IO.println("+-----+" + "-".repeat(32) + "+" + "-".repeat(32) + "+");
         for (int i = 0; i < total; i++) {
             IO.println(banco[i].toString());
@@ -47,7 +47,7 @@ public class App {
         IO.println();
     }
 
-    public void ImprimirDados() {
+    public void imprimirDados() {
         int pessoa = Integer.parseInt(IO.readln("Entre com o ID da pessoa desejada: "));
         if (pessoa >= 1 && banco[pessoa-1] != null) {
             IO.println("- Pessoa " + pessoa + " -");
