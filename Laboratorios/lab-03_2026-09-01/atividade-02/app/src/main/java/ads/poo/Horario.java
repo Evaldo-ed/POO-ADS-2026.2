@@ -169,11 +169,11 @@ public class Horario {
         }
     }
 
-    public int converterParaSegundos() {
+    public long converterParaSegundos() {
         return (horas * 3600 + minutos * 60 + segundos);
     }
 
-    public int diferencaHorario(Horario horario) {
+    public long diferencaHorario(Horario horario) {
         if (this.converterParaSegundos() > horario.converterParaSegundos()) {
             return (86400 - this.converterParaSegundos() + horario.converterParaSegundos());
         } else {
