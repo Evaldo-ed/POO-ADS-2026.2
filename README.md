@@ -28,6 +28,8 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 07](Aulas/aula-07_2026-08-19) - Introdução ao paradigma orientado a objetos (Parte 02).
 
-- [Aula 08](Aulas/aula-08_2026-08-25/) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 01).
+- [Aula 08](Aulas/aula-08_2026-08-25) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 01).
 
-- [Aula 09](Aulas/aula-09_2026-08-26/) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 02).
+- [Aula 09](Aulas/aula-09_2026-08-26) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 02).
+
+- [Aula 10](Aulas/aula-10_2026-09-15) - Coleções Java: listas, conjuntos e mapas; for each, lambdas e method reference.
