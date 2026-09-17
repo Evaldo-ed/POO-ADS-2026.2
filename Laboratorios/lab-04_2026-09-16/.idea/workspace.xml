@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9cb1b26-d3ba-4490-b7eb-7d67bb6a3716" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/app/src/main/java/ads/poo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aulas/aula-11_2026-09-16/atividade-01/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ads/poo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/ads/poo/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="/opt/gradle/gradle-9.2.1" javaHome="/usr/java/jdk-25-oracle-x64" gradleVersion="9.2.1" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3JQsvLf5nG15AOGkhsIpraQSgGl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.lab-04_2026-09-16 [:app:ads.poo.App.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aluno/POO-2/POO-ADS-2026.2/Laboratorios/lab-04_2026-09-16",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9cb1b26-d3ba-4490-b7eb-7d67bb6a3716" name="Changes" comment="" />
+      <created>1789604855586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789604855586</updated>
+      <workItem from="1789604856736" duration="3401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
