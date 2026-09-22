@@ -12,6 +12,8 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Laboratório 03](Laboratorios/lab-03_2026-09-01) - Prática com construtor, modificadores, sobrecarga, membros estáticos e finais.
 
+- [Laboratório 04](Laboratorios/lab-04_2026-09-16) - Coleções Java.
+
 ## Aulas
 
 - [Aula 01](Aulas/aula-01_2026-07-28) - Introdução à linguagem Java (Parte 01).
@@ -32,4 +34,6 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 09](Aulas/aula-09_2026-08-26) - Classes, objetos, métodos, atributos, modificadores de acesso, construtores, membros estáticos e constantes (Parte 02).
 
-- [Aula 10](Aulas/aula-10_2026-09-15) - Coleções Java: listas, conjuntos e mapas; for each, lambdas e method reference.
+- [Aula 10](Aulas/aula-10_2026-09-15) - Coleções Java: listas, conjuntos e mapas; for each, lambdas e method reference (Parte 01).
+
+- [Aula 11](Aulas/aula-11_2026-09-16) - Coleções Java: listas, conjuntos e mapas; for each, lambdas e method reference (Parte 02).

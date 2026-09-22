@@ -44,4 +44,8 @@ public class Livro {
     public String toString() {
         return ("ISBN: " + isbn + ", título: " + titulo + ", autor: " + autor + ", ano de publicação: " + anoPublicacao);
     }
+
+    public String listarLivro() {
+        return String.format("| %17s | %63s |", isbn, titulo);
+    }
 }
