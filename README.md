@@ -37,3 +37,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 10](Aulas/aula-10_2026-09-15) - Coleções Java: listas, conjuntos e mapas; for each, lambdas e method reference (Parte 01).
 
 - [Aula 11](Aulas/aula-11_2026-09-16) - Coleções Java: listas, conjuntos e mapas; for each, lambdas e method reference (Parte 02).
+
+- [Aula 12](Aulas/aula-12_2026-09-23) - Associação entre classes e diagrama de classes UML.
