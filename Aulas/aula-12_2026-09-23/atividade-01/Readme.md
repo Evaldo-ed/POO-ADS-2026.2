@@ -24,6 +24,8 @@ public class Retangulo{
 
 ```mermaid
 classDiagram
+    direction LR
+    
     class Retangulo{
         - int altura
         - int largura
@@ -34,7 +36,7 @@ classDiagram
     class Carro{
         - String marca
         - Motor propulsor
-        + Carro()
+        + Carro(marca: String, propulsor: Motor)
         + acelerar(v: int) void
     }
 
@@ -42,10 +44,52 @@ classDiagram
         - int hp
         - int giroAtual
         - int cilindros
-        + Motor()
+        + Motor(hp: int, cilindros: int)
         + acelerar(v: int) void
     }
     
-    direction LR
     Carro o-- Motor
+
+    class Aluno{
+        - String nome
+        - String email
+        - Endereco endereco
+        + Aluno(nome: String, email: String, endereco: Endereco)
+    }
+    
+    class Endereco{
+        - String rua
+        - String numero
+        - String bairro
+        - String cidade
+        - String uf
+        - String pais
+        - String cep
+        + Endereco(rua: String, numero: String, bairro: String, cidade: String, uf: String, pais: String, cep: String)
+    }
+    
+    Aluno "1"*--"1" Endereco
+    
+    class Aviao{
+        - int tripulantes
+        - int passageiros
+        - int numeroMotores
+        - double combustivel
+        - ArrayList~MotorAviao~ motores
+        + Aviao(tripulantes: int, passageiros: int, combustivel: double, numeroMotores: int)
+        + ligarAviao() void
+        + desligarAviao() void
+        + ligarMotor(numero: int) boolean
+        + desligarMotor(numero: int) boolean
+    }
+    
+    class MotorAviao{
+        - String tipo
+        - boolean ligado
+        + MotorAviao(tipo: String, ligado: boolean)
+        + ligar() boolean
+        + desligar() boolean
+    }
+    
+    Aviao "1"*--"1..8" MotorAviao
 ```

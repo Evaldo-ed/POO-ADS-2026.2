@@ -4,9 +4,9 @@ public class Carro {
     private String marca;
     private Motor propulsor;
 
-    public Carro() {
-        marca = "Ford";
-        propulsor = new Motor();
+    public Carro(String marca, Motor propulsor) {
+        this.marca = marca;
+        this.propulsor = propulsor;
     }
 
     public void acelerar(int v) {
