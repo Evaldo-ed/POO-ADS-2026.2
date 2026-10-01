@@ -10,6 +10,6 @@ public class App {
 
         ford = null;
 
-        Aluno d = new Aluno("Maria", "Maria@gmail.com", new Endereco("1", "2", "3", "4", "5", "6", "7"));
+        Aluno d = new Aluno("Maria", "Maria@gmail.com", new Endereco("Lauro Linhares", "248", "Trindade", "Florianópolis", "SC", "Brasil", "12345-678"));
     }
 }

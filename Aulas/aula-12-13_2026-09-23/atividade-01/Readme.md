@@ -71,24 +71,23 @@ classDiagram
     Aluno "1"*--"1" Endereco
     
     class Aviao{
+        - boolean ligado
         - int tripulantes
         - int passageiros
         - int numeroMotores
         - double combustivel
+        - String tipoMotores
         - ArrayList~MotorAviao~ motores
-        + Aviao(tripulantes: int, passageiros: int, combustivel: double, numeroMotores: int)
-        + ligarAviao() void
-        + desligarAviao() void
-        + ligarMotor(numero: int) boolean
-        + desligarMotor(numero: int) boolean
+        + Aviao(tripulantes: int, passageiros: int, combustivel: double, numeroMotores: int, tipoMotores: String)
+        + ligarDesligarAviao() boolean
+        + ligarDesligarMotor(numero: int) boolean
     }
     
     class MotorAviao{
         - String tipo
         - boolean ligado
-        + MotorAviao(tipo: String, ligado: boolean)
-        + ligar() boolean
-        + desligar() boolean
+        + MotorAviao(tipo: String)
+        + ligarDesligar() void
     }
     
     Aviao "1"*--"1..8" MotorAviao
