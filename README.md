@@ -41,3 +41,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 12/13](Aulas/aula-12-13_2026-09-23) - Associação entre classes e diagrama de classes UML (Parte 01).
 
 - [Aula 14](Aulas/aula-14_2026-09-30) - Associação entre classes e diagrama de classes UML (Parte 02).
+
+- [Aula 15](Aulas/aula-15_2026-10-06) - Associação entre classes e diagrama de classes UML (Parte 03).

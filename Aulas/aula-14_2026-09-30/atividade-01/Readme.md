@@ -16,8 +16,8 @@ classDiagram
     }
     
     class Bateria {
-        - int capacidade;
-        - int cargaAtual;
+        - int capacidade
+        - int cargaAtual
         + Bateria(capacidade: int, cargaAtual: int)
         + reduzirCarga(unidade: int, consumo: int) boolean
     }
