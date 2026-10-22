@@ -44,4 +44,6 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 15](Aulas/aula-15_2026-10-06) - Associação entre classes e diagrama de classes UML (Parte 03).
 
-- [Aula 16/17](Aulas/aula-16-17_2026-10-14) - Herança.
+- [Aula 16/17](Aulas/aula-16-17_2026-10-14) - Herança (Parte 01).
+
+- [Aula 18](Aulas/aula-18_2026-10-21) - Herança (Parte 02).

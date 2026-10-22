@@ -99,28 +99,31 @@ classDiagram
     
     class Veiculo {
         - VELOCIDADE_MAXIMA : int
-        - VELOCIDADE_MINIMA : int
-        - motores : ArrayList~Motor~
-        + acelerar(qtd : int) void 
+        - CAPACIDADE_MAXIMA : int
+        - velocidadeAtual : int
+        + acelerar(qtd : int) boolean
+        + frear (qtd : int) boolean
     }
     
     class Carro {
-        
+        - tipo : String
     }
     
     class Aviao {
-        + DesligarMotor(numero : int) boolean
+        - tipoDeMotor : String
+        + ativarFlap(nivel : int) void
     }
     
     class Barco {
-        
+        - tamanho : int
+        - ancora : boolean
+        + lancarAncora() : boolean
     }
     
     class Caminhao {
-        
+        - basculanteAberta : boolean
     }
     
-    Motor --* Veiculo
     Carro --|> Veiculo
     Aviao --|> Veiculo
     Barco --|> Veiculo
