@@ -8,11 +8,11 @@ public class Aldeao extends Personagem {
 
     @Override
     public String atacar() {
-        return "Aldeão atacou " + this.getAtaque() + " força 1.";
+        return "Aldeão atacou com força " + super.getAtaque() + ".";
     }
 
     @Override
     public String mover() {
-        return "Aldeão moveu " + super.getAtaque() + " unidade(s).";
+        return "Aldeão moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade" : " unidades");
     }
 }

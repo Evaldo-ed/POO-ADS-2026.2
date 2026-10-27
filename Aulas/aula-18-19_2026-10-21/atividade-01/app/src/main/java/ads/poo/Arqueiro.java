@@ -8,11 +8,11 @@ public class Arqueiro extends Personagem {
 
     @Override
     public String atacar() {
-        return "Arqueiro atacou " + getAtaque() + " força 1.";
+        return "Arqueiro atacou com força " + super.getAtaque() + ".";
     }
 
     @Override
     public String mover() {
-        return "Arqueiro moveu " + getAtaque() + " unidade(s).";
+        return "Arqueiro moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade" : " unidades");
     }
 }

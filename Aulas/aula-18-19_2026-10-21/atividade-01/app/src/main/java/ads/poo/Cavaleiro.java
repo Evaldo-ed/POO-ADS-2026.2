@@ -8,11 +8,11 @@ public class Cavaleiro extends Personagem {
 
     @Override
     public String atacar() {
-        return "Cavaleiro atacou " + getAtaque() + " força 1.";
+        return "Cavaleiro atacou com força " + super.getAtaque() + ".";
     }
 
     @Override
     public String mover() {
-        return "Cavaleiro moveu " + getAtaque() + " unidade(s).";
+        return "Cavaleiro moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade" : " unidades");
     }
 }
