@@ -1,6 +1,6 @@
 package ads.poo;
 
-public class Arqueiro extends Personagem {
+public class Arqueiro extends Personagem implements Guerreiro {
 
     public Arqueiro() {
         super (35, 2, 1);
@@ -13,6 +13,6 @@ public class Arqueiro extends Personagem {
 
     @Override
     public String mover() {
-        return "Arqueiro moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade" : " unidades");
+        return "Arqueiro moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade." : " unidades.");
     }
 }

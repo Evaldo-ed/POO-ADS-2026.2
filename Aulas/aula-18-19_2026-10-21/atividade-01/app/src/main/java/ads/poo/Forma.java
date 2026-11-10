@@ -1,6 +1,6 @@
 package ads.poo;
 
-public class Forma {
+public abstract class Forma {
     private String cor;
     private double coordenadaInicialX;
     private double coordenadaInicialY;
@@ -11,9 +11,7 @@ public class Forma {
         this.coordenadaInicialY = coordenadaInicialY;
     }
 
-    public String desenhar() {
-        return "";
-    }
+    public abstract String desenhar();
 
     public String getCor() {
         return cor;

@@ -1,6 +1,6 @@
 package ads.poo;
 
-public class Cavaleiro extends Personagem {
+public class Cavaleiro extends Personagem implements Guerreiro {
 
     public Cavaleiro() {
         super (50, 3, 2);
@@ -13,6 +13,6 @@ public class Cavaleiro extends Personagem {
 
     @Override
     public String mover() {
-        return "Cavaleiro moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade" : " unidades");
+        return "Cavaleiro moveu " + super.getVelocidade() + (super.getVelocidade() == 1 ? " unidade." : " unidades.");
     }
 }

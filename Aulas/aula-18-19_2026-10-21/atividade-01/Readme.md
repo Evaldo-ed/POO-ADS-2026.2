@@ -5,11 +5,22 @@ classDiagram
     direction BT
     
     class Personagem {
+        <<abstract>>
         - vida : int
         - ataque : int
         - velocidade : double
-        + atacar() String
-        + mover() String
+        + mover() String*
+    }
+    
+    class Coletor {
+        <<interface>>
+        +coletarMadeira() String
+        +coletarOuro() String
+    }
+
+    class Guerreiro {
+        <<interface>>
+        +atacar() String
     }
     
     class Aldeao {
@@ -24,9 +35,13 @@ classDiagram
         
     }
     
+    Aldeao ..|> Coletor
+    Aldeao ..|> Guerreiro
     Aldeao --|> Personagem
     Arqueiro --|> Personagem
+    Arqueiro ..|> Guerreiro
     Cavaleiro --|> Personagem
+    Cavaleiro ..|> Guerreiro
 ```
 
 ```mermaid
@@ -34,15 +49,17 @@ classDiagram
     direction BT
     
     class Forma {
+        <<abstract>>
         - cor : String
         - coordenadaInicialX : double
         - coordenadaInicialY : double
-        + desenhar() String
+        + desenhar() String*
     }
     
     class FormaGeometrica2D {
-        + calcularArea() double
-        + calcularPerimetro () double
+        <<abstract>>
+        + calcularArea() double*
+        + calcularPerimetro () double*
     }
     
     class Linha {

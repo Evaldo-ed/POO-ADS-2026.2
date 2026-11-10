@@ -1,15 +1,11 @@
 package ads.poo;
 
-public class FormaGeometrica2D extends Forma {
+public abstract class FormaGeometrica2D extends Forma {
     public FormaGeometrica2D(String cor, double coordenadaInicialX, double coordenadaInicialY) {
         super (cor, coordenadaInicialX, coordenadaInicialY);
     }
 
-    public double calcularArea() {
-        return 0;
-    }
+    public abstract double calcularArea();
 
-    public double calcularPerimetro() {
-        return 0;
-    }
+    public abstract double calcularPerimetro();
 }

@@ -8,7 +8,9 @@ public class App {
 
         IO.println("- Aldeão - ");
         IO.println(a.atacar());
-        IO.println(a.mover() + "\n");
+        IO.println(a.mover());
+        IO.println(a.coletarMadeira());
+        IO.println(a.coletarOuro() + "\n");
 
         IO.println("- Arqueiro - ");
         IO.println(b.atacar());
@@ -25,7 +27,7 @@ public class App {
         IO.println("- Linha - ");
         IO.println(d.desenhar() + "\n");
 
-        IO.println("- Retangulo - ");
+        IO.println("- Retângulo - ");
         IO.println(e.desenhar());
         IO.println("Área: " + e.calcularArea());
         IO.println("Perímetro: " + e.calcularPerimetro() + "\n");
