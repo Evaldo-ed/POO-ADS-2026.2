@@ -14,6 +14,10 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Laboratório 04](Laboratorios/lab-04_2026-09-16) - Coleções Java.
 
+- [Laboratório 05](Laboratorios/lab-05_2026-10-07) - Associação entre classes e diagrama de classes UML.
+
+- [Laboratório 06](Laboratorios/lab-06_2026-11-11) - Herança e Polimorfismo.
+
 ## Aulas
 
 - [Aula 01](Aulas/aula-01_2026-07-28) - Introdução à linguagem Java (Parte 01).
@@ -47,3 +51,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 16/17](Aulas/aula-16-17_2026-10-14) - Herança (Parte 01).
 
 - [Aula 18/19](Aulas/aula-18-19_2026-10-21) - Herança (Parte 02).
+
+- [Aula 20](Aulas/aula-20_2026-11-10) - Classe abstrata, interface e polimorfismo.
