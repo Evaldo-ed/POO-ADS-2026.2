@@ -53,3 +53,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 18/19](Aulas/aula-18-19_2026-10-21) - Herança (Parte 02).
 
 - [Aula 20](Aulas/aula-20_2026-11-10) - Classe abstrata, interface e polimorfismo.
+
+- [Aula 21/22](Aulas/aula-21-22_2026-11-17) - Enumerações e tipos genéricos.

@@ -1,5 +1,7 @@
 package ads.poo;
 
+import edu.princeton.cs.algs4.Draw;
+
 import java.util.ArrayList;
 
 public class App {
@@ -19,5 +21,21 @@ public class App {
                 };
             }
         });
+
+        ArrayList<Carta> baralho = new ArrayList<>();
+
+        for (CartaNaipe naipe : CartaNaipe.values()) {
+            for (CartaValor valor : CartaValor.values()) {
+                baralho.add(new Carta(naipe, valor));
+            }
+        }
+
+        Draw draw = new Draw();
+        draw.setCanvasSize(800, 800);
+        draw.setXscale(0, 800);
+        draw.setYscale(0, 800);
+
+        CartaGrafica c = new CartaGrafica(CartaNaipe.COPAS, CartaValor.TRES, 400, 400);
+        c.desenhar(draw);
     }
 }
