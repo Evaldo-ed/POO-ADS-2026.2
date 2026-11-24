@@ -55,3 +55,5 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 - [Aula 20](Aulas/aula-20_2026-11-10) - Classe abstrata, interface e polimorfismo.
 
 - [Aula 21/22](Aulas/aula-21-22_2026-11-17) - Enumerações e tipos genéricos.
+
+- [Aula 23](Aulas/aula-23_2026-11-24) - Tratamento de exceções.
