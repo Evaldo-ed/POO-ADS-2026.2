@@ -56,4 +56,4 @@ Repositório com todos os exercícios e laboratórios desenvolvidos na disciplin
 
 - [Aula 21/22](Aulas/aula-21-22_2026-11-17) - Enumerações e tipos genéricos.
 
-- [Aula 23](Aulas/aula-23_2026-11-24) - Tratamento de exceções.
+- [Aula 23/24](Aulas/aula-23-24_2026-11-24) - Tratamento de exceções.
